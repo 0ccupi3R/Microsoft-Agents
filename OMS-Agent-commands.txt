@@ -1,0 +1,12 @@
+
+# CEF Installer
+sudo wget -O cef_installer.py https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/DataConnectors/CEF/cef_installer.py&&sudo python cef_installer.py [workspaceid] [workspacekey]
+
+# CEF Troubleshooting
+sudo wget -O cef_troubleshoot.py https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/DataConnectors/CEF/cef_troubleshoot.py&&sudo python cef_troubleshoot.py
+
+# Download the purge script:
+wget https://raw.githubusercontent.com/microsoft/OMS-Agent-for-Linux/master/tools/purge_omsagent.sh
+
+# Run the purge script (with sudo permissions):
+sudo sh purge_omsagent.sh
